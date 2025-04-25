@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.testapplication"
+    namespace = "ru.example.testapp"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.testapplication"
+        applicationId = "ru.example.testapp"
         minSdk = 28
         targetSdk = 35
         versionCode = 1
@@ -110,4 +110,6 @@ dependencies {
 
     //FMPEG
     implementation(libs.ffmpeg.kit.full)
+
+
 }
